@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+#captcha-container { margin-bottom: 20px; }
+#captcha-image { width: 200px; height: auto; }
+#captcha-input { margin-top: 10px; }
+#result { margin-top: 20px; font-weight: bold; }
