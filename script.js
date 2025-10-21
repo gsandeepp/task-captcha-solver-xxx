@@ -3,8 +3,8 @@ document.getElementById('solve-button').addEventListener('click', function() {
     const resultDiv = document.getElementById('result');
     // Simulate captcha solving logic
     if (userInput === 'solved') {
-        resultDiv.innerHTML = '<p>Captcha solved successfully!</p>';
+        resultDiv.textContent = 'Captcha solved successfully!';
     } else {
-        resultDiv.innerHTML = '<p>Captcha solving failed. Try again.</p>';
+        resultDiv.textContent = 'Failed to solve captcha. Try again.';
     }
 });
