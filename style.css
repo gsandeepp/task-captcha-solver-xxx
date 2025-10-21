@@ -1,3 +1,4 @@
 body { font-family: Arial, sans-serif; margin: 20px; }
 #captcha-container { margin-bottom: 20px; }
-#result { margin-top: 20px; font-weight: bold; }
+#captcha-image { width: 200px; height: auto; }
+#result { margin-top: 10px; font-weight: bold; }
